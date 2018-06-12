@@ -1,5 +1,5 @@
 <h1> My tasks </h1>
 <% @tasks.each do |task| %>
 <h2> <%= task[:title] %> </h2>
-<%= link_to "Details", tasks_path %>
+<%= link_to "Details", tasks_path(task[:id]) %>
 <% end %>
