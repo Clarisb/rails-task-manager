@@ -1,3 +1,64 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #AE9C22;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  margin: 50px;
+  width: auto;
+  border-radius: 20px;
+  font-size: 45px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+}
+
+h2 {
+  font-family: 'Bungee', cursive;
+  background-color: white;
+  border-radius: 10px;
+  margin: 50px;
+  margin-right: 1000px;
+}
+
+h3 {
+  font-family: 'Bungee', cursive;
+  background-color: white;
+  border-radius: 10px;
+  margin: 50px;
+  margin-right: 1000px;
+}
+
+li {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 80px;
+  list-style: none;
+  font-family: 'Bungee', cursive;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+a {
+
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s;
+  &:hover {
+    color: #C4B238;
+  }
+}
